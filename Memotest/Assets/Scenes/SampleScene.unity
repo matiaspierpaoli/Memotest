@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 23067410}
   - component: {fileID: 23067413}
   - component: {fileID: 23067412}
-  - component: {fileID: 23067411}
   m_Layer: 0
   m_Name: Lion
   m_TagString: Untagged
@@ -156,19 +155,6 @@ Transform:
   m_Father: {fileID: 820264780}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &23067411
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 23067409}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &23067412
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -229,7 +215,6 @@ GameObject:
   - component: {fileID: 132408332}
   - component: {fileID: 132408335}
   - component: {fileID: 132408334}
-  - component: {fileID: 132408333}
   m_Layer: 0
   m_Name: Lion
   m_TagString: Untagged
@@ -251,19 +236,6 @@ Transform:
   m_Father: {fileID: 1237004535}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &132408333
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132408331}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &132408334
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -324,7 +296,6 @@ GameObject:
   - component: {fileID: 226269135}
   - component: {fileID: 226269138}
   - component: {fileID: 226269137}
-  - component: {fileID: 226269136}
   m_Layer: 0
   m_Name: Giraffe
   m_TagString: Untagged
@@ -346,19 +317,6 @@ Transform:
   m_Father: {fileID: 1928583762}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &226269136
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226269134}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &226269137
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -419,7 +377,6 @@ GameObject:
   - component: {fileID: 353726661}
   - component: {fileID: 353726664}
   - component: {fileID: 353726663}
-  - component: {fileID: 353726662}
   m_Layer: 0
   m_Name: Dolphin_2
   m_TagString: Untagged
@@ -441,19 +398,6 @@ Transform:
   m_Father: {fileID: 1222503775}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &353726662
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353726660}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &353726663
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -514,7 +458,6 @@ GameObject:
   - component: {fileID: 394086332}
   - component: {fileID: 394086335}
   - component: {fileID: 394086334}
-  - component: {fileID: 394086333}
   m_Layer: 0
   m_Name: Whale
   m_TagString: Untagged
@@ -536,19 +479,6 @@ Transform:
   m_Father: {fileID: 1807875592}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &394086333
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394086331}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &394086334
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -609,7 +539,6 @@ GameObject:
   - component: {fileID: 422597615}
   - component: {fileID: 422597618}
   - component: {fileID: 422597617}
-  - component: {fileID: 422597616}
   m_Layer: 0
   m_Name: Dolphin
   m_TagString: Untagged
@@ -631,19 +560,6 @@ Transform:
   m_Father: {fileID: 1222503775}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &422597616
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422597614}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &422597617
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -704,7 +620,6 @@ GameObject:
   - component: {fileID: 430331946}
   - component: {fileID: 430331949}
   - component: {fileID: 430331948}
-  - component: {fileID: 430331947}
   m_Layer: 0
   m_Name: Dolphin_2
   m_TagString: Untagged
@@ -726,19 +641,6 @@ Transform:
   m_Father: {fileID: 2068137879}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &430331947
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430331945}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &430331948
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -834,7 +736,6 @@ GameObject:
   - component: {fileID: 602408497}
   - component: {fileID: 602408500}
   - component: {fileID: 602408499}
-  - component: {fileID: 602408498}
   m_Layer: 0
   m_Name: Horse
   m_TagString: Untagged
@@ -856,19 +757,6 @@ Transform:
   m_Father: {fileID: 2107635378}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &602408498
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 602408496}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &602408499
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1117,7 +1005,6 @@ GameObject:
   - component: {fileID: 774537237}
   - component: {fileID: 774537240}
   - component: {fileID: 774537239}
-  - component: {fileID: 774537238}
   m_Layer: 0
   m_Name: Giraffe_2
   m_TagString: Untagged
@@ -1139,19 +1026,6 @@ Transform:
   m_Father: {fileID: 1928583762}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &774537238
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774537236}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &774537239
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1212,7 +1086,6 @@ GameObject:
   - component: {fileID: 780399793}
   - component: {fileID: 780399796}
   - component: {fileID: 780399795}
-  - component: {fileID: 780399794}
   m_Layer: 0
   m_Name: Lion_2
   m_TagString: Untagged
@@ -1234,19 +1107,6 @@ Transform:
   m_Father: {fileID: 820264780}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &780399794
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780399792}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &780399795
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1307,7 +1167,6 @@ GameObject:
   - component: {fileID: 802866940}
   - component: {fileID: 802866943}
   - component: {fileID: 802866942}
-  - component: {fileID: 802866941}
   m_Layer: 0
   m_Name: Giraffe
   m_TagString: Untagged
@@ -1329,19 +1188,6 @@ Transform:
   m_Father: {fileID: 1312168875}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &802866941
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 802866939}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &802866942
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1417,7 +1263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820264779}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.98, y: -2.11, z: -8.67}
+  m_LocalPosition: {x: -5.98, y: -2.31, z: -8.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 23067410}
@@ -1436,7 +1282,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2.951374, y: 1, z: 3.669259}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &820264782
 MonoBehaviour:
@@ -1450,7 +1296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &827268725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1462,7 +1307,6 @@ GameObject:
   - component: {fileID: 827268726}
   - component: {fileID: 827268729}
   - component: {fileID: 827268728}
-  - component: {fileID: 827268727}
   m_Layer: 0
   m_Name: Dolphin
   m_TagString: Untagged
@@ -1484,19 +1328,6 @@ Transform:
   m_Father: {fileID: 2068137879}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &827268727
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827268725}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &827268728
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1655,7 +1486,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025773041}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9, y: -2.1617076, z: -3.66}
+  m_LocalPosition: {x: 0.9, y: -2.31, z: -3.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1892842901}
@@ -1674,7 +1505,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3.931703, y: 1, z: 3.698984}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1025773044
 MonoBehaviour:
@@ -1688,7 +1519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &1140116160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,7 +1530,6 @@ GameObject:
   - component: {fileID: 1140116161}
   - component: {fileID: 1140116164}
   - component: {fileID: 1140116163}
-  - component: {fileID: 1140116162}
   m_Layer: 0
   m_Name: Lion_2
   m_TagString: Untagged
@@ -1722,19 +1551,6 @@ Transform:
   m_Father: {fileID: 1237004535}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1140116162
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140116160}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1140116163
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1795,7 +1611,6 @@ GameObject:
   - component: {fileID: 1152171356}
   - component: {fileID: 1152171359}
   - component: {fileID: 1152171358}
-  - component: {fileID: 1152171357}
   m_Layer: 0
   m_Name: Horse_2
   m_TagString: Untagged
@@ -1817,19 +1632,6 @@ Transform:
   m_Father: {fileID: 1025773042}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1152171357
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152171355}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1152171358
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1905,7 +1707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222503774}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.43, y: -2.2700706, z: 1.75}
+  m_LocalPosition: {x: 5.43, y: -2.31, z: 1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 422597615}
@@ -1924,7 +1726,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3.931703, y: 1, z: 3.698984}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1222503777
 MonoBehaviour:
@@ -1938,7 +1740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &1237004534
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,7 +1766,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237004534}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.66, y: -2.11, z: 1.88}
+  m_LocalPosition: {x: -4.66, y: -2.31, z: 1.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 132408332}
@@ -1984,7 +1785,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2.951374, y: 1, z: 3.669259}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1237004537
 MonoBehaviour:
@@ -1998,7 +1799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &1254594578
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,7 +1844,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3.06318, y: 1, z: 3.06318}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1254594581
 MonoBehaviour:
@@ -2058,7 +1858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &1260899154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2117,7 +1916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312168874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.28, y: -2.1617076, z: -8.74}
+  m_LocalPosition: {x: 2.28, y: -2.63, z: -8.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 802866940}
@@ -2136,7 +1935,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3.931703, y: 1, z: 3.698984}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1312168877
 MonoBehaviour:
@@ -2150,7 +1949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &1527143144
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,7 +1960,6 @@ GameObject:
   - component: {fileID: 1527143145}
   - component: {fileID: 1527143148}
   - component: {fileID: 1527143147}
-  - component: {fileID: 1527143146}
   m_Layer: 0
   m_Name: Horse_2
   m_TagString: Untagged
@@ -2184,19 +1981,6 @@ Transform:
   m_Father: {fileID: 2107635378}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1527143146
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527143144}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1527143147
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2257,7 +2041,6 @@ GameObject:
   - component: {fileID: 1593869092}
   - component: {fileID: 1593869095}
   - component: {fileID: 1593869094}
-  - component: {fileID: 1593869093}
   m_Layer: 0
   m_Name: Whale_2
   m_TagString: Untagged
@@ -2279,19 +2062,6 @@ Transform:
   m_Father: {fileID: 1807875592}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1593869093
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593869091}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1593869094
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2352,7 +2122,6 @@ GameObject:
   - component: {fileID: 1731714375}
   - component: {fileID: 1731714378}
   - component: {fileID: 1731714377}
-  - component: {fileID: 1731714376}
   m_Layer: 0
   m_Name: Giraffe_2
   m_TagString: Untagged
@@ -2368,25 +2137,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731714374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.89, z: 0}
-  m_LocalScale: {x: 3.7152824, y: 0.2497794, z: 3.4953732}
+  m_LocalPosition: {x: 0, y: 0.74, z: 0}
+  m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1312168875}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1731714376
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731714374}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1731714377
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2481,7 +2237,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3.06318, y: 1, z: 3.06318}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1807875594
 MonoBehaviour:
@@ -2495,7 +2251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &1881799008
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,7 +2262,6 @@ GameObject:
   - component: {fileID: 1881799009}
   - component: {fileID: 1881799012}
   - component: {fileID: 1881799011}
-  - component: {fileID: 1881799010}
   m_Layer: 0
   m_Name: Whale_2
   m_TagString: Untagged
@@ -2529,19 +2283,6 @@ Transform:
   m_Father: {fileID: 1254594579}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1881799010
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881799008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1881799011
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2602,7 +2343,6 @@ GameObject:
   - component: {fileID: 1892842901}
   - component: {fileID: 1892842904}
   - component: {fileID: 1892842903}
-  - component: {fileID: 1892842902}
   m_Layer: 0
   m_Name: Horse
   m_TagString: Untagged
@@ -2624,19 +2364,6 @@ Transform:
   m_Father: {fileID: 1025773042}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1892842902
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892842900}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1892842903
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2712,7 +2439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928583761}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.43, y: -2.1617076, z: -3.29}
+  m_LocalPosition: {x: -4.43, y: -2.31, z: -3.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 226269135}
@@ -2731,7 +2458,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3.931703, y: 1, z: 3.698984}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1928583764
 MonoBehaviour:
@@ -2745,7 +2472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &2068137878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2772,7 +2498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068137878}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.58, y: -2.2700706, z: -9.21}
+  m_LocalPosition: {x: 6.58, y: -2.31, z: -9.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 827268726}
@@ -2791,7 +2517,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3.931703, y: 1, z: 3.698984}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2068137881
 MonoBehaviour:
@@ -2805,7 +2531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &2074241224
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,7 +2542,6 @@ GameObject:
   - component: {fileID: 2074241225}
   - component: {fileID: 2074241228}
   - component: {fileID: 2074241227}
-  - component: {fileID: 2074241226}
   m_Layer: 0
   m_Name: Whale
   m_TagString: Untagged
@@ -2839,19 +2563,6 @@ Transform:
   m_Father: {fileID: 1254594579}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2074241226
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2074241224}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2074241227
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2927,7 +2638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107635377}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.68, y: -2.1617076, z: -3.66}
+  m_LocalPosition: {x: 5.68, y: -2.31, z: -3.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 602408497}
@@ -2946,7 +2657,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3.931703, y: 1, z: 3.698984}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2107635380
 MonoBehaviour:
@@ -2960,7 +2671,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd3155b4a4b2e48b2e6048d05c5f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
 --- !u!1 &2136845261
 GameObject:
   m_ObjectHideFlags: 0

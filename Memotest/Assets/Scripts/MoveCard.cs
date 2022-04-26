@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class MoveCard : MonoBehaviour
 {
+
     private void OnMouseDown()
     {
-        transform.Rotate(180, 0, 0);
-        Debug.Log("Hola");
+        transform.Rotate(180, 0, 0);      
+
     }
 }

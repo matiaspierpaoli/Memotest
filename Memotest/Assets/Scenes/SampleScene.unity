@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 23067413}
   - component: {fileID: 23067412}
   m_Layer: 0
-  m_Name: Lion
-  m_TagString: Untagged
+  m_Name: Lion_2
+  m_TagString: Lion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,11 +149,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23067409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalPosition: {x: 0.055902958, y: 0.20752545, z: -0.014862537}
   m_LocalScale: {x: 2.951374, y: 0.36069357, z: 3.669259}
   m_Children: []
   m_Father: {fileID: 820264780}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23067412
 MeshRenderer:
@@ -216,8 +216,8 @@ GameObject:
   - component: {fileID: 132408335}
   - component: {fileID: 132408334}
   m_Layer: 0
-  m_Name: Lion
-  m_TagString: Untagged
+  m_Name: Lion_2
+  m_TagString: Lion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,11 +230,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132408331}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0}
-  m_LocalScale: {x: 2.951374, y: 0.36069357, z: 3.669259}
+  m_LocalPosition: {x: 0, y: 0.21435757, z: 0}
+  m_LocalScale: {x: 3.06318, y: 0.3743576, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1237004535}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &132408334
 MeshRenderer:
@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 353726664}
   - component: {fileID: 353726663}
   m_Layer: 0
-  m_Name: Dolphin_2
+  m_Name: Dolphin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,7 +396,7 @@ Transform:
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1222503775}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &353726663
 MeshRenderer:
@@ -540,8 +540,8 @@ GameObject:
   - component: {fileID: 422597618}
   - component: {fileID: 422597617}
   m_Layer: 0
-  m_Name: Dolphin
-  m_TagString: Untagged
+  m_Name: Dolphin_2
+  m_TagString: Dolphin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -554,11 +554,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422597614}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.32, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2643295, z: 0}
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1222503775}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &422597617
 MeshRenderer:
@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 430331949}
   - component: {fileID: 430331948}
   m_Layer: 0
-  m_Name: Dolphin_2
+  m_Name: Dolphin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -639,7 +639,7 @@ Transform:
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 2068137879}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &430331948
 MeshRenderer:
@@ -737,8 +737,8 @@ GameObject:
   - component: {fileID: 602408500}
   - component: {fileID: 602408499}
   m_Layer: 0
-  m_Name: Horse
-  m_TagString: Untagged
+  m_Name: Horse_2
+  m_TagString: Horse
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -751,11 +751,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602408496}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.69, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6043295, z: 0}
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 2107635378}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &602408499
 MeshRenderer:
@@ -1007,7 +1007,7 @@ GameObject:
   - component: {fileID: 774537239}
   m_Layer: 0
   m_Name: Giraffe_2
-  m_TagString: Untagged
+  m_TagString: Giraffe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1020,8 +1020,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774537236}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.89, z: 0}
-  m_LocalScale: {x: 3.7152824, y: 0.2497794, z: 3.4953732}
+  m_LocalPosition: {x: 0, y: 0.7143295, z: 0.00000014714897}
+  m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1928583762}
   m_RootOrder: 1
@@ -1087,7 +1087,7 @@ GameObject:
   - component: {fileID: 780399796}
   - component: {fileID: 780399795}
   m_Layer: 0
-  m_Name: Lion_2
+  m_Name: Lion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1105,7 +1105,7 @@ Transform:
   m_LocalScale: {x: 3.06318, y: 0.3743576, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 820264780}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &780399795
 MeshRenderer:
@@ -1266,8 +1266,8 @@ Transform:
   m_LocalPosition: {x: -5.98, y: -2.31, z: -8.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 23067410}
   - {fileID: 780399793}
+  - {fileID: 23067410}
   m_Father: {fileID: 536971423}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1308,8 +1308,8 @@ GameObject:
   - component: {fileID: 827268729}
   - component: {fileID: 827268728}
   m_Layer: 0
-  m_Name: Dolphin
-  m_TagString: Untagged
+  m_Name: Dolphin_2
+  m_TagString: Dolphin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1322,11 +1322,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827268725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.32, z: 0}
+  m_LocalPosition: {x: 0, y: 0.23, z: 0}
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 2068137879}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &827268728
 MeshRenderer:
@@ -1489,8 +1489,8 @@ Transform:
   m_LocalPosition: {x: 0.9, y: -2.31, z: -3.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1892842901}
   - {fileID: 1152171356}
+  - {fileID: 1892842901}
   m_Father: {fileID: 2136845262}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1531,7 +1531,7 @@ GameObject:
   - component: {fileID: 1140116164}
   - component: {fileID: 1140116163}
   m_Layer: 0
-  m_Name: Lion_2
+  m_Name: Lion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1549,7 +1549,7 @@ Transform:
   m_LocalScale: {x: 3.06318, y: 0.3743576, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1237004535}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1140116163
 MeshRenderer:
@@ -1612,7 +1612,7 @@ GameObject:
   - component: {fileID: 1152171359}
   - component: {fileID: 1152171358}
   m_Layer: 0
-  m_Name: Horse_2
+  m_Name: Horse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1630,7 +1630,7 @@ Transform:
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1025773042}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1152171358
 MeshRenderer:
@@ -1681,6 +1681,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152171355}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1165584796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165584798}
+  - component: {fileID: 1165584797}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1165584797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165584796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef2346b87d2bf64a9c7434885fcccb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 1807875591}
+  - {fileID: 1237004534}
+  - {fileID: 1025773041}
+  - {fileID: 1928583761}
+  - {fileID: 1222503774}
+  - {fileID: 1254594578}
+  - {fileID: 820264779}
+  - {fileID: 2107635377}
+  - {fileID: 1312168874}
+  - {fileID: 2068137878}
+--- !u!4 &1165584798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165584796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.068171, y: 8.476168, z: -7.295204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1222503774
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,8 +1764,8 @@ Transform:
   m_LocalPosition: {x: 5.43, y: -2.31, z: 1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 422597615}
   - {fileID: 353726661}
+  - {fileID: 422597615}
   m_Father: {fileID: 2136845262}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1769,8 +1823,8 @@ Transform:
   m_LocalPosition: {x: -4.66, y: -2.31, z: 1.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 132408332}
   - {fileID: 1140116161}
+  - {fileID: 132408332}
   m_Father: {fileID: 2136845262}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1961,7 +2015,7 @@ GameObject:
   - component: {fileID: 1527143148}
   - component: {fileID: 1527143147}
   m_Layer: 0
-  m_Name: Horse_2
+  m_Name: Horse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1979,7 +2033,7 @@ Transform:
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 2107635378}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1527143147
 MeshRenderer:
@@ -2043,7 +2097,7 @@ GameObject:
   - component: {fileID: 1593869094}
   m_Layer: 0
   m_Name: Whale_2
-  m_TagString: Untagged
+  m_TagString: Whale
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2056,7 +2110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593869091}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.38, z: 0}
+  m_LocalPosition: {x: -0.0000002088826, y: 0.40435758, z: 0.0142182205}
   m_LocalScale: {x: 3.06318, y: 0.3743576, z: 3.091617}
   m_Children: []
   m_Father: {fileID: 1807875592}
@@ -2124,7 +2178,7 @@ GameObject:
   - component: {fileID: 1731714377}
   m_Layer: 0
   m_Name: Giraffe_2
-  m_TagString: Untagged
+  m_TagString: Giraffe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2137,7 +2191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731714374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.74, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7143295, z: 0}
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1312168875}
@@ -2264,7 +2318,7 @@ GameObject:
   - component: {fileID: 1881799011}
   m_Layer: 0
   m_Name: Whale_2
-  m_TagString: Untagged
+  m_TagString: Whale
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2277,7 +2331,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881799008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.38, z: 0}
+  m_LocalPosition: {x: 0.0000002088826, y: 0.40435758, z: 0.0142182205}
   m_LocalScale: {x: 3.06318, y: 0.3743576, z: 3.091617}
   m_Children: []
   m_Father: {fileID: 1254594579}
@@ -2344,8 +2398,8 @@ GameObject:
   - component: {fileID: 1892842904}
   - component: {fileID: 1892842903}
   m_Layer: 0
-  m_Name: Horse
-  m_TagString: Untagged
+  m_Name: Horse_2
+  m_TagString: Horse
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2358,11 +2412,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892842900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.69, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6043295, z: 0}
   m_LocalScale: {x: 3.931703, y: 0.2643294, z: 3.698984}
   m_Children: []
   m_Father: {fileID: 1025773042}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1892842903
 MeshRenderer:
@@ -2501,8 +2555,8 @@ Transform:
   m_LocalPosition: {x: 6.58, y: -2.31, z: -9.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 827268726}
   - {fileID: 430331946}
+  - {fileID: 827268726}
   m_Father: {fileID: 536971423}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2641,8 +2695,8 @@ Transform:
   m_LocalPosition: {x: 5.68, y: -2.31, z: -3.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 602408497}
   - {fileID: 1527143145}
+  - {fileID: 602408497}
   m_Father: {fileID: 536971423}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

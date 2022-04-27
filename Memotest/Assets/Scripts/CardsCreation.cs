@@ -4,17 +4,12 @@ using UnityEngine;
 
 public class CardsCreation : MonoBehaviour
 {
-    class CardsList
-    {
-        public bool activated = true;
-        public bool isActivated() { return activated; }
-        public void deactivate() { activated = false; }
+    
+    public bool activated = true;
+    public bool isActivated() { return activated; }
+    public void deactivate() { activated = false; }
         
-        public  List<GameObject> cards;
-
-    }
-
-
+    public static List<GameObject> cards;
 
     // Start is called before the first frame update
     void Start()

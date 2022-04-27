@@ -4,10 +4,27 @@ using UnityEngine;
 
 public class MoveCard : MonoBehaviour
 {
-    public CardsCreation intermediate;
-    private void OnMouseDown()
+    private void Start()
     {
         
+       
+    }
+
+    private void OnMouseDown()
+    {
+        CardsCreation.cards.Add(GetComponent<GameObject>());
+
+        //CardsCreation.cards.deactivate();
+
+        for (var i = 0; i < CardsCreation.cards.Count; i++)
+        {
+            if (CardsCreation.cards[i])
+            {
+
+            }
+        }
+
+       
         transform.Rotate(180, 0, 0);      
 
     }

@@ -79,8 +79,7 @@ public class MoveCard : MonoBehaviour
             }
             else
             {
-                gameObjects[0].transform.Rotate(180, 0, 0);
-                gameObjects[1].transform.Rotate(180, 0, 0);
+                Invoke("RotateBothCards", 1);
             }
 
             if (WinObjective.winObjective == 5)
@@ -90,6 +89,12 @@ public class MoveCard : MonoBehaviour
 
             CardsCreation.cardsInstances.Clear();
         }
+    }
+
+    private void RotateBothCards()
+    {
+        gameObjects[0].transform.Rotate(180, 0, 0);
+        gameObjects[1].transform.Rotate(180, 0, 0);
     }
 
     private void DisableColliders()

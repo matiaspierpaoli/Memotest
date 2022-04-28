@@ -1769,9 +1769,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1165584798}
-  - component: {fileID: 1165584797}
-  - component: {fileID: 1165584799}
   - component: {fileID: 1165584800}
+  - component: {fileID: 1165584797}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1788,10 +1787,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1165584796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eef2346b87d2bf64a9c7434885fcccb0, type: 3}
+  m_Script: {fileID: 11500000, guid: 7668705eb40dd8f4092aaa917f825d3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cards: []
+  WinText: {fileID: 111731099}
 --- !u!4 &1165584798
 Transform:
   m_ObjectHideFlags: 0
@@ -1806,19 +1805,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1165584799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1165584796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828825327c0961d439ea53fc3fd6bc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinText: {fileID: 111731099}
 --- !u!114 &1165584800
 MonoBehaviour:
   m_ObjectHideFlags: 0

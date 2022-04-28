@@ -2,15 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MoveCard : MonoBehaviour
 {
     private int maxObjects = 2;
     public static GameObject[] gameObjects;
     public static Collider[] colliders;
+
+   
+
     private void Start()
     {
         gameObjects = new GameObject[maxObjects];
-        colliders = new Collider[maxObjects];
+        colliders = new Collider[maxObjects];       
     }
 
     private void OnMouseDown()
@@ -46,43 +50,43 @@ public class MoveCard : MonoBehaviour
                 Debug.Log("Ambos gameObjects eran Whale");
                 colliders[0].GetComponent<Collider>().enabled = false;
                 colliders[1].GetComponent<Collider>().enabled = false;
-                WinCondition.winObjective++;
+                WinObjective.winObjective++;
             }
             else if (gameObjects[0].tag == "Lion" && gameObjects[1].tag == "Lion")
             {
                 Debug.Log("Ambos gameObjects eran Lion");
                 colliders[0].GetComponent<Collider>().enabled = false;
                 colliders[1].GetComponent<Collider>().enabled = false;
-                WinCondition.winObjective++;
+                WinObjective.winObjective++;
             }
             else if (gameObjects[0].tag == "Dolphin" && gameObjects[1].tag == "Dolphin")
             {
                 Debug.Log("Ambos gameObjects eran Dolphin");
                 colliders[0].GetComponent<Collider>().enabled = false;
                 colliders[1].GetComponent<Collider>().enabled = false;
-                WinCondition.winObjective++;
+                WinObjective.winObjective++;
             }
             else if (gameObjects[0].tag == "Horse" && gameObjects[1].tag == "Horse")
             {
                 Debug.Log("Ambos gameObjects eran Horse");
                 colliders[0].GetComponent<Collider>().enabled = false;
                 colliders[1].GetComponent<Collider>().enabled = false;
-                WinCondition.winObjective++;
+                WinObjective.winObjective++;
             }
             else if (gameObjects[0].tag == "Giraffe" && gameObjects[1].tag == "Giraffe")
             {
                 Debug.Log("Ambos gameObjects eran Giraffe");
                 colliders[0].GetComponent<Collider>().enabled = false;
                 colliders[1].GetComponent<Collider>().enabled = false;
-                WinCondition.winObjective++;
+                WinObjective.winObjective++;
             }
             else
             {              
                 Debug.Log("Los gameObjects volvieron a rotar");
                 gameObjects[0].transform.Rotate(180, 0, 0);
                 gameObjects[1].transform.Rotate(180, 0, 0);
-            }           
-            
+            }
+
             CardsCreation.cardsInstances.Clear();
             Debug.Log("La lista quedo vacia");
         }

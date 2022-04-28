@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class WinCondition : MonoBehaviour
+public class WinObjective : MonoBehaviour
 {
     public static int winObjective = 5;
     public Text WinText;
@@ -22,6 +22,5 @@ public class WinCondition : MonoBehaviour
             WinText.text = "Congrats!";
 
         }
-
     }
 }

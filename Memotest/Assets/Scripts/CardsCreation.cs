@@ -11,31 +11,26 @@ public class CardsCreation : MonoBehaviour
     
     public static List<GameObject> cardsInstances = new List<GameObject>();
 
-   
-
     // Start is called before the first frame update
     void Start()
+    {
+        InitializePositions();
+        RandomizePositions();
+    }
+
+    private void InitializePositions()
     {
         positions.Add(new Vector3(0, -4.5f, 2));
         positions.Add(new Vector3(-5, -4.5f, 2));
         positions.Add(new Vector3(0, -4.5f, -3));
         positions.Add(new Vector3(-5, -4.5f, -3));
-        positions.Add(new Vector3(5, -4.5f, -3));
+        positions.Add(new Vector3(5, -4.5f, 2));
         positions.Add(new Vector3(-2, -4.5f, -9));
         positions.Add(new Vector3(-6, -4.5f, -9));
         positions.Add(new Vector3(5, -4.5f, -3));
         positions.Add(new Vector3(2, -4.5f, -9));
         positions.Add(new Vector3(6, -4.5f, -9));
-
-        RandomizePositions();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void RandomizePositions()
     {
         int index = 0;
@@ -44,13 +39,10 @@ public class CardsCreation : MonoBehaviour
         for (var i = 0; i < cards.Count; i++)
         {
             index = Random.Range(0, positions.Count);
-            pos = positions[Random.Range(0, positions.Count)];
+            pos = positions[index];
             cards[i].transform.localPosition = pos;
             positions.RemoveAt(index);
 
         }
-
-        Debug.Log("Hola");
-
     }
 }

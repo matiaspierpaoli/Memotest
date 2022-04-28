@@ -8,9 +8,6 @@ public class MoveCard : MonoBehaviour
     private int maxObjects = 2;
     public static GameObject[] gameObjects;
     public static Collider[] colliders;
-
-   
-
     private void Start()
     {
         gameObjects = new GameObject[maxObjects];
@@ -19,13 +16,18 @@ public class MoveCard : MonoBehaviour
 
     private void OnMouseDown()
     {
+        CreateTwoCards();
+        IfTwoCards();
+    }
+
+    private void CreateTwoCards()
+    {
         if (CardsCreation.cardsInstances.Count == 0)
         {
             gameObjects[0] = this.gameObject;
             colliders[0] = this.GetComponent<Collider>();
             CardsCreation.cardsInstances.Add(gameObjects[0]);
-            Debug.Log("Se aniadio el primer componente a la lista");           
-            transform.Rotate(180, 0, 0);
+            RotateThisCard();
         }
         else if (CardsCreation.cardsInstances.Count > 0 && CardsCreation.cardsInstances.Count < 2)
         {
@@ -35,61 +37,65 @@ public class MoveCard : MonoBehaviour
             {
                 colliders[1] = this.GetComponent<Collider>();
                 CardsCreation.cardsInstances.Add(gameObjects[1]);
-                Debug.Log("Se aniadio el segundo componente a la lista");
-                transform.Rotate(180, 0, 0);
+                RotateThisCard();
             }
-            
-        }
 
+        }
+    }
+
+    private void RotateThisCard()
+    {
+        transform.Rotate(180, 0, 0);
+    }
+
+    private void IfTwoCards()
+    {
         if (CardsCreation.cardsInstances.Count == 2)
         {
-            Debug.Log("Hay dos componentes en la lista");
-
-            if (gameObjects[0].tag == "Whale" && gameObjects[1].tag == "Whale")
+            if (gameObjects[0].CompareTag("Whale") && gameObjects[1].CompareTag("Whale"))
             {
-                Debug.Log("Ambos gameObjects eran Whale");
-                colliders[0].GetComponent<Collider>().enabled = false;
-                colliders[1].GetComponent<Collider>().enabled = false;
+                DisableColliders();
                 WinObjective.winObjective++;
             }
-            else if (gameObjects[0].tag == "Lion" && gameObjects[1].tag == "Lion")
+            else if (gameObjects[0].CompareTag("Lion") && gameObjects[1].CompareTag("Lion"))
             {
-                Debug.Log("Ambos gameObjects eran Lion");
-                colliders[0].GetComponent<Collider>().enabled = false;
-                colliders[1].GetComponent<Collider>().enabled = false;
+                DisableColliders();
                 WinObjective.winObjective++;
             }
-            else if (gameObjects[0].tag == "Dolphin" && gameObjects[1].tag == "Dolphin")
+            else if (gameObjects[0].CompareTag("Dolphin") && gameObjects[1].CompareTag("Dolphin"))
             {
-                Debug.Log("Ambos gameObjects eran Dolphin");
-                colliders[0].GetComponent<Collider>().enabled = false;
-                colliders[1].GetComponent<Collider>().enabled = false;
+                DisableColliders();
                 WinObjective.winObjective++;
             }
-            else if (gameObjects[0].tag == "Horse" && gameObjects[1].tag == "Horse")
+            else if (gameObjects[0].CompareTag("Horse") && gameObjects[1].CompareTag("Horse"))
             {
-                Debug.Log("Ambos gameObjects eran Horse");
-                colliders[0].GetComponent<Collider>().enabled = false;
-                colliders[1].GetComponent<Collider>().enabled = false;
+                DisableColliders();
                 WinObjective.winObjective++;
             }
-            else if (gameObjects[0].tag == "Giraffe" && gameObjects[1].tag == "Giraffe")
+            else if (gameObjects[0].CompareTag("Giraffe") && gameObjects[1].CompareTag("Giraffe"))
             {
-                Debug.Log("Ambos gameObjects eran Giraffe");
-                colliders[0].GetComponent<Collider>().enabled = false;
-                colliders[1].GetComponent<Collider>().enabled = false;
+                DisableColliders();
                 WinObjective.winObjective++;
             }
             else
-            {              
-                Debug.Log("Los gameObjects volvieron a rotar");
+            {
                 gameObjects[0].transform.Rotate(180, 0, 0);
                 gameObjects[1].transform.Rotate(180, 0, 0);
             }
 
+            if (WinObjective.winObjective == 5)
+            {
+                Debug.Log("Hola");
+            }
+
             CardsCreation.cardsInstances.Clear();
-            Debug.Log("La lista quedo vacia");
         }
+    }
+
+    private void DisableColliders()
+    {
+        colliders[0].GetComponent<Collider>().enabled = false;
+        colliders[1].GetComponent<Collider>().enabled = false;
     }
 
   

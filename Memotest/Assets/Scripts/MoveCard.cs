@@ -7,11 +7,12 @@ public class MoveCard : MonoBehaviour
 {
     private int maxObjects = 2;
     public static GameObject[] gameObjects;
-    public static Collider[] colliders;
+    public static List<Collider> actualColliders;
+    public List<Collider> everyCollider;
     private void Start()
     {
         gameObjects = new GameObject[maxObjects];
-        colliders = new Collider[maxObjects];       
+        actualColliders = new List<Collider>();     
     }
 
     private void OnMouseDown()
@@ -25,7 +26,7 @@ public class MoveCard : MonoBehaviour
         if (CardsCreation.cardsInstances.Count == 0)
         {
             gameObjects[0] = this.gameObject;
-            colliders[0] = this.GetComponent<Collider>();
+            actualColliders.Add(this.GetComponent<Collider>());
             CardsCreation.cardsInstances.Add(gameObjects[0]);
             RotateThisCard();
         }
@@ -35,11 +36,10 @@ public class MoveCard : MonoBehaviour
 
             if (gameObjects[1] != gameObjects[0])
             {
-                colliders[1] = this.GetComponent<Collider>();
+                actualColliders.Add(this.GetComponent<Collider>());
                 CardsCreation.cardsInstances.Add(gameObjects[1]);
                 RotateThisCard();
             }
-
         }
     }
 
@@ -79,14 +79,11 @@ public class MoveCard : MonoBehaviour
             }
             else
             {
-                Invoke("RotateBothCards", 1);
+                DisableAllColliders();
+                Invoke("RotateBothCards", 2);
+                EnablePreviousColliders();
             }
-
-            if (WinObjective.winObjective == 5)
-            {
-                Debug.Log("Hola");
-            }
-
+            
             CardsCreation.cardsInstances.Clear();
         }
     }
@@ -99,9 +96,32 @@ public class MoveCard : MonoBehaviour
 
     private void DisableColliders()
     {
-        colliders[0].GetComponent<Collider>().enabled = false;
-        colliders[1].GetComponent<Collider>().enabled = false;
+        for (int i = 0; i < actualColliders.Count; i++)
+        {
+            actualColliders[i].enabled = false;
+        }      
     }
 
-  
+    private void DisableAllColliders()
+    {
+        for (int i = 0; i < everyCollider.Count; i++)
+        {
+            everyCollider[i].enabled = false;
+           
+        }   
+    }
+
+    private void EnablePreviousColliders()
+    {
+        for (int i = 0; i < everyCollider.Count; i++)
+        {
+            for (int j = 0; j < actualColliders.Count; j++)
+            {
+                if (everyCollider[i] != actualColliders[j])
+                {
+                    everyCollider[i].enabled = true;
+                }
+            }                       
+        }
+    }
 }

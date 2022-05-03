@@ -7,11 +7,13 @@ public class WinObjective : MonoBehaviour
 {
     public static int winObjective = 0;
     public Text WinText;
+    public GameObject RestartButton;
 
     // Start is called before the first frame update
     void Start()
     {
         WinText.text = " ";
+        RestartButton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class WinObjective : MonoBehaviour
     {
         if (winObjective == 5)
         {
+            RestartButton.SetActive(true);
             WinText.text = "Congrats!";
 
         }
